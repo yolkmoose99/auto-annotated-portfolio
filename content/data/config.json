@@ -22,6 +22,11 @@
                 "type": "Link",
                 "label": "Blog",
                 "url": "/blog"
+            },
+            {
+                "type": "Link",
+                "label": "CV",
+                "url": "/cv"
             }
         ],
         "socialLinks": [
@@ -65,6 +70,12 @@
                 "type": "Link",
                 "label": "Blog",
                 "url": "/blog",
+                "altText": ""
+            },
+            {
+                "type": "Link",
+                "label": "CV",
+                "url": "/cv",
                 "altText": ""
             },
             {
