@@ -30,7 +30,7 @@ const Component: React.FC<ComponentProps> = (props) => {
         bottomSections = []
     } = props;
     const dateTimeAttr = dayjs(date).format('YYYY-MM-DD HH:mm:ss');
-    const formattedDate = dayjs(date).format('YYYY-MM-DD');
+    const formattedDate = dayjs(date).format('YYYY');
 
     return (
         <BaseLayout {...props}>

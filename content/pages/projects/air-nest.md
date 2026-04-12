@@ -2,17 +2,17 @@
 type: ProjectLayout
 title: Air Nest
 colors: colors-a
-date: '2024-01-01'
+date: '2024-10-01'
 client: Single Channel Video Projection
 description: >-
   Single channel video projection, size variable. ACC Gallery, Weimar, Germany.
 featuredImage:
   type: ImageBlock
-  url: /images/projects/air-nest-15.jpg
+  url: /images/projects/air-nest-cover.jpg
   altText: Air Nest installation view
 media:
   type: ImageBlock
-  url: /images/projects/air-nest-15.jpg
+  url: /images/projects/air-nest-cover.jpg
   altText: Air Nest installation view
 ---
 
@@ -25,3 +25,5 @@ The inflation narrates a permission for residence. The pumping, the silence, the
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 2rem;">
   <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/y_ocwZSTQJo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=y_ocwZSTQJo)

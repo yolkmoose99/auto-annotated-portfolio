@@ -1,10 +1,10 @@
 ---
 type: PageLayout
-title: About
+title: Kitman Yeung
 colors: colors-a
 backgroundImage:
   type: BackgroundImage
-  url: /images/bg4.jpg
+  url: /images/bg1.jpg
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
@@ -14,15 +14,9 @@ sections:
     colors: colors-f
     backgroundSize: full
     text: >+
-      # Hey I’m a developer. I’ve been born and raised in the world, and that’s
-      also where I’m based. I’m currently a free agent, ex-this, ex-that,
-      ex-super big name. When I’m not coding, writing or creating, I eat
-      cereals. I have a dog, check her out [@mygod](https://www.stackbit.com/).
+      <img src="/images/about.jpg" alt="Kitman Yeung" style="width: 70%; max-width: 480px; display: block; margin: 0 auto 2rem auto;" />
 
-    media:
-      type: ImageBlock
-      url: /images/about.jpg
-      altText: Hero image
+
     styles:
       self:
         height: auto

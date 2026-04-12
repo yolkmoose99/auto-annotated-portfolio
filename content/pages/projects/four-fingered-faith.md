@@ -9,11 +9,11 @@ description: >-
   Rubber gloves, plastic string, hand cream, glue. 4m × 0.6m × 2m.
 featuredImage:
   type: ImageBlock
-  url: /images/projects/four-fingered-faith-06.jpg
+  url: /images/projects/four-fingered-faith-cover.jpg
   altText: Four-Fingered Faith installation view
 media:
   type: ImageBlock
-  url: /images/projects/four-fingered-faith-06.jpg
+  url: /images/projects/four-fingered-faith-cover.jpg
   altText: Four-Fingered Faith installation view
 ---
 

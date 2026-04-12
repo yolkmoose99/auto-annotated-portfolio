@@ -9,11 +9,11 @@ description: >-
   Customised latex moulds, plastic string, hand cream, glue. 5m × 3m × 0.5m.
 featuredImage:
   type: ImageBlock
-  url: /images/projects/brace-brace-02.jpg
+  url: /images/projects/brace-brace-cover.jpg
   altText: Brace Brace installation view
 media:
   type: ImageBlock
-  url: /images/projects/brace-brace-02.jpg
+  url: /images/projects/brace-brace-cover.jpg
   altText: Brace Brace installation view
 ---
 

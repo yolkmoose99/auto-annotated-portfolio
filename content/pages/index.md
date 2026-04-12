@@ -49,7 +49,7 @@ sections:
     variant: variant-b
     projects:
       - content/pages/projects/the-final-act-of-inflating.md
-      - content/pages/projects/farewell-parties.md
+      - content/pages/projects/masking-urban-transformations.md
       - content/pages/projects/hold-the-swallow.md
     styles:
       self:

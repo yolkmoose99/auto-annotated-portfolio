@@ -9,11 +9,11 @@ description: >-
   Single channel video projection, size variable.
 featuredImage:
   type: ImageBlock
-  url: /images/projects/inflatable-act-09.jpg
+  url: /images/projects/inflatable-act-cover.jpg
   altText: The Inflatable Act installation view
 media:
   type: ImageBlock
-  url: /images/projects/inflatable-act-09.jpg
+  url: /images/projects/inflatable-act-cover.jpg
   altText: The Inflatable Act installation view
 ---
 
