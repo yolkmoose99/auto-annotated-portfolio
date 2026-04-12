@@ -95,7 +95,9 @@ function getAllPostsSorted(objects: ContentObject[]) {
 }
 
 function getAllProjectsSorted(objects: ContentObject[]) {
-    const all = objects.filter((object) => object.__metadata?.modelName === 'ProjectLayout') as ProjectLayout[];
+    const all = objects.filter(
+        (object) => object.__metadata?.modelName === 'ProjectLayout' && !object['hideFromFeed']
+    ) as ProjectLayout[];
     const sorted = all.sort(
         (projectA, projectB) => new Date(projectB.date).getTime() - new Date(projectA.date).getTime()
     );

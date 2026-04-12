@@ -10,7 +10,7 @@
     "onSecondary": "#0f0f0f",
     "complementary": "#444444",
     "onComplementary": "#e2e2e0",
-    "fontBody": "\"DM Mono\", monospace",
+    "fontBody": "\"DM Mono\", \"Noto Sans TC\", monospace",
     "headingWeight": "400",
     "headingCase": "uppercase"
 }
