@@ -1,3 +1,4 @@
+import dynamic from 'next/dynamic';
 import Head from 'next/head';
 
 import { DynamicComponent } from '@/components/components-registry';
@@ -6,8 +7,11 @@ import { allContent } from '@/utils/content';
 import { seoGenerateMetaDescription, seoGenerateMetaTags, seoGenerateTitle } from '@/utils/seo-utils';
 import { resolveStaticProps } from '@/utils/static-props-resolvers';
 
-const Page: React.FC<PageComponentProps> = (props) => {
-    const { global, ...page } = props;
+// The scatter homepage touches window/document, so it must render client-side only.
+const ScatterHome = dynamic(() => import('@/components/ScatterHome'), { ssr: false });
+
+const Page: React.FC<PageComponentProps & { isRoot?: boolean }> = (props) => {
+    const { global, isRoot, ...page } = props;
     const { site } = global;
     const title = seoGenerateTitle(page, site);
     const metaTags = seoGenerateMetaTags(page, site);
@@ -28,7 +32,7 @@ const Page: React.FC<PageComponentProps> = (props) => {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 {site.favicon && <link rel="icon" href={site.favicon} />}
             </Head>
-            <DynamicComponent {...props} />
+            {isRoot ? <ScatterHome /> : <DynamicComponent {...props} />}
         </>
     );
 };
@@ -42,6 +46,12 @@ export function getStaticPaths() {
 export function getStaticProps({ params }) {
     const allData = allContent();
     const urlPath = '/' + (params.slug || []).join('/');
+    const isRoot = !params.slug || params.slug.length === 0;
+    if (isRoot) {
+        // still need `global` (site config) for <Head>, but skip normal page resolution
+        const props = resolveStaticProps(urlPath, allData);
+        return { props: { ...props, isRoot: true } };
+    }
     const props = resolveStaticProps(urlPath, allData);
     return { props };
 }
