@@ -136,7 +136,7 @@ export const WORK_PAGES = {
         'A long time ago, he brought out a relic passed down from his grandfather\u2014a clock once used to store his great-aunt\u2019s last woven bracelet, which became a symbol of home after his grandfather wound it for the final time. This clock, this shirt, and this portrait evoke a past shared collectively with that displaced Nakhon Phanom generation. In the stories recalled by the previous generation, was a true bearer of the past ever really necessary to preserve?',
         'The only truth exists in the time personally experienced within the materiality of an object. That one second becomes longer than a second. In the process of remaking a replica, the maker\u2019s hand inevitably implants an unavoidable fiction. With each retelling, the archive gains yet another layer of fairy-tale colour.'
       ],
-      imgs: ['/site-assets/making-archive/0.jpg','/site-assets/making-archive/1.jpg','/site-assets/making-archive/2.jpg','/site-assets/making-archive/3.jpg','/site-assets/making-archive/4.jpg','/site-assets/making-archive/5.jpg','/site-assets/making-archive/6.jpg']  // cover first
+      imgs: ['/site-assets/making-archive/0.jpg','/site-assets/making-archive/1.jpg','/site-assets/making-archive/2.jpg','/site-assets/making-archive/3.jpg','/site-assets/making-archive/4.jpg','/site-assets/making-archive/5.jpg']  // cover first
     },
     'new-folder-chengdu': {
       title: 'New Folder_Chengdu', year: '2026',
